@@ -1,10 +1,14 @@
 import Link from "next/link"
 
-export default function Home() {
-
+export default function Navbar() {
     return (
-        <>
+        <nav>
             <ul>
+                <li>
+                    <Link href="/">
+                        Home
+                    </Link>
+                </li>
                 <li>
                     <Link href="/products">
                         Produtos
@@ -16,7 +20,6 @@ export default function Home() {
                     </Link>
                 </li>
             </ul>
-            Navegando Entre Páginas
-        </>
+        </nav>
     )
 }

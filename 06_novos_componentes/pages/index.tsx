@@ -16,7 +16,7 @@ export default function Home() {
                     </Link>
                 </li>
             </ul>
-            Navegando Entre Páginas
+           Novos Componentes
         </>
     )
 }

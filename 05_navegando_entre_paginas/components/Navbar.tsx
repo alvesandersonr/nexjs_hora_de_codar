@@ -5,8 +5,8 @@ export default function Navbar() {
         <nav>
             <ul>
                 <li>
-                    <Link href="/">
-                        Home
+                    <Link href="/home">
+                        Produtos
                     </Link>
                 </li>
             </ul>
